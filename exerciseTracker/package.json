@@ -13,7 +13,7 @@
 		"express": "^4.16.4",
 		"mongodb": "^4.13.0",
 		"mongoose": "^6.8.2",
-		"validate-date": "^2.0.0"
+		"date-fns": "2.29.3"
 	},
 	"repository": {
 		"url": "https://github.com/freeCodeCamp/boilerplate-project-exercisetracker"
