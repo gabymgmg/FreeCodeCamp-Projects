@@ -2,7 +2,7 @@ function palindrome(str){
     //retirar punto y comas
     let rightWord = []
     let reversedWord = []
-    let regex = /[\p{P}\s]/u
+    const regex = /[\p{P}\s]/u
     //delete '.' and ','
     for(const letter of str){
         if(regex.test(letter)== false){
